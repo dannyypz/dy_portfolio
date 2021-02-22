@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './Components/Navbar'
 import Header from './Components/Header'
+import Experience from './Components/Experience'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from 'react-particles-js'
 
@@ -30,6 +31,7 @@ function App() {
     />
     <Navbar/>
     <Header/>
+    <Experience/>
   </>
   );
 }
