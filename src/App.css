@@ -73,8 +73,8 @@ nav ul li{
 }
 .navbar-brand{
   max-width: 17.25rem;
-  padding: 0 !important;
-  height: 6rem !important;
+  padding-top: 0 !important;
+  height: 4.50rem !important;
 }
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus{
   border-top: 0.1875rem solid var(--primary-bluegray);
@@ -123,11 +123,12 @@ nav ul li{
 }
 /************************TYPED TEXT********************************/
 .btn-main-offer{
+  background-color: rgb(58, 57, 57);
+  color: aliceblue;
   border: 1px solid var(--primary-red);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
-  color: #010611;
   margin: 2rem;
 }
 .btn-main-offer:hover{
@@ -149,6 +150,34 @@ nav ul li{
     display: none;
   }
 }
+/***********************ABOUT*********************************/
+.aboutFig{
+margin-top:20px;
+display: flex;
+justify-items: self-end;
+border-radius: 5px;
+box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25);
+/* padding: 5em; */
+width: 100%;
+}
+.aboutImg{
+  border-radius: 20px;
+  margin: 25px;
+  margin-left: 6rem;
+  display: flex;
+  /* justify-self: flex-end;
+  flex-direction: row-reverse; */
+  width:271px;
+  height:400px;
+  box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25);
+
+}
+.figCap{
+ margin-top: 5rem;
+ margin-left: 4rem;
+ padding-right: 10rem;
+}
+
 /************************TIMELINE********************************/
 .body{
   background: #282c34;
