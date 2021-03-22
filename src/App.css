@@ -4,7 +4,7 @@
   --primary-dark: rgb(255,255,255,0);
   --primary-text: #ffc857;
   --primary-red:#d1495b;
-
+  
 }
 
 .App {
@@ -62,6 +62,7 @@ nav a.nav-link{
 }
 nav ul li{
   text-transform: uppercase;
+  font-family: 'Space Mono', monospace;
 }
 
 .navbar-nav > li > a{
@@ -105,10 +106,12 @@ nav ul li{
   align-items: center;
   text-align: center;
   z-index: 1;
+  font-family: 'Space Mono', monospace;
 }
 .main-info h1 {
   color: var(--primary-text);
   text-transform: uppercase;
+  font-family: 'Space Mono', monospace;
 }
 @media(max-width: 768px){
   .main-info h1{
@@ -137,7 +140,7 @@ nav ul li{
   color: #ffffff;
   transition: .2s ease-in-out;
 }
-/************************TYPED TEXT********************************/
+/************************PARTICLES********************************/
 .tsparticles-canvas-el{
   position: absolute;
   height: 100vh;
@@ -154,28 +157,41 @@ nav ul li{
 .aboutFig{
 margin-top:20px;
 display: flex;
-justify-items: self-end;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 10px;
 border-radius: 5px;
 box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25);
-/* padding: 5em; */
-width: 100%;
 }
 .aboutImg{
+  float: left;
   border-radius: 20px;
-  margin: 25px;
-  margin-left: 6rem;
-  display: flex;
-  /* justify-self: flex-end;
-  flex-direction: row-reverse; */
-  width:271px;
-  height:400px;
+  margin: .2rem;
+  width: 15rem;
   box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25);
-
 }
 .figCap{
- margin-top: 5rem;
- margin-left: 4rem;
- padding-right: 10rem;
+ margin-top: 2rem;
+ width: 850px;
+ padding-left: 1.5rem;
+ text-align: justify;
+ font-family: 'Space Mono', monospace;
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+@media only screen and (max-width:800px){
+  .container{
+    width: 100%;
+  }
+  .figCap{
+    width: 250px;
+  }
 }
 
 /************************TIMELINE********************************/
@@ -188,13 +204,14 @@ width: 100%;
   color: #282c34;
 }
 .timelineTitle{
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Space Mono', monospace;
   /* text-transform: uppercase; */
 }
 h3{
   padding-top: 0.25em;
+  font-family: 'Space Mono', monospace;
 }
 .vertical-timeline-element-content {
   box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !important;
