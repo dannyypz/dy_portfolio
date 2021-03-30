@@ -155,24 +155,25 @@ nav ul li{
 }
 /***********************ABOUT*********************************/
 .aboutFig{
-margin-top:20px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-border: 10px;
-border-radius: 5px;
-box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25);
+  padding-top:25px;
+  margin-top:25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25);
 }
 .aboutImg{
   float: left;
   border-radius: 20px;
-  margin: .2rem;
+  margin-top: 2rem;
   width: 15rem;
   box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25);
 }
 .figCap{
- margin-top: 2rem;
+ margin-top: 5rem;
  width: 850px;
  padding-left: 1.5rem;
  text-align: justify;
@@ -207,11 +208,13 @@ box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25);
   font-size: 3rem;
   text-align: center;
   font-family: 'Space Mono', monospace;
+  margin-top: 1.5rem;
   /* text-transform: uppercase; */
 }
 h3{
   padding-top: 0.25em;
   font-family: 'Space Mono', monospace;
+  
 }
 .vertical-timeline-element-content {
   box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !important;
@@ -225,4 +228,43 @@ h3{
     display: block !important;
     float: none !important;
   }
+}
+/************************WORK********************************/
+.workCont{
+  margin: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Space Mono', monospace;
+}
+.techUse{
+  margin: 2rem;
+  font-family: 'Space Mono', monospace;
+}
+.techHead{
+
+}
+
+/************************CONTACT********************************/
+
+.contactForm{
+  
+  background-color: #282c34;
+  color:white ;
+}
+.formContainer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+  justify-content: space-between !important;
+  width: 50px;
+  font-family: 'Space Mono', monospace;
+
+}
+.contactHead{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Space Mono', monospace;
 }
