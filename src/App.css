@@ -208,7 +208,8 @@ nav ul li{
   font-size: 3rem;
   text-align: center;
   font-family: 'Space Mono', monospace;
-  margin-top: 1.5rem;
+  margin-top: 5.5rem;
+  
   /* text-transform: uppercase; */
 }
 h3{
@@ -219,6 +220,7 @@ h3{
 .vertical-timeline-element-content {
   box-shadow: 0 0.25em 0.5em 0 rgb(0,0,0,0.25), 0 0.4em 1.25em 0 rgb(0,0,0,0.15) !important;
   padding: 2em 3em !important;
+  
 }
 #description{
   margin: 1.5em 0 2em 0;
@@ -237,12 +239,14 @@ h3{
   justify-content: space-between;
   align-items: center;
   font-family: 'Space Mono', monospace;
+  padding-top: 50px;
 }
 .techUse{
   margin: 2rem;
   font-family: 'Space Mono', monospace;
+  padding-bottom: 60px;
 }
-.techHead{
+Card{
 
 }
 
