@@ -11,12 +11,13 @@ const Experience = () => {
     let SchoolIconStyles = {background: "#e76f51"}
     return (
         <div>
-            <h1 className="timelineTitle">Experience Timeline</h1>
+            <h1 className="timelineTitle" id="experience">Experience</h1>
                 <VerticalTimeline>
                         {timelineData.map((element) => {
                             let isWorkIcon = element.icon === "work";
                             return(
                                 <VerticalTimelineElement
+                                    className="timeline"
                                     key={element.key}
                                     date={element.date}
                                     dateClassName="date"

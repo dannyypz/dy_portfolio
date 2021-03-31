@@ -1,12 +1,15 @@
 import React from 'react'
 import logo from '../De.png'
+// import * as Scroll from 'react-scroll';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+// import Header from './Header'
 //React FontAwesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 
-
 const Navbar = () => {
+
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
 
@@ -18,22 +21,42 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">Home</a>
+                <Link className="nav-link" aria-current="page"
+                    to="home"
+                    activeClass="active"
+                    spy={true} 
+                    smooth={true}>Home</Link>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="#">About</a>
+                <Link className="nav-link"
+                    to="about"
+                    activeClass="active"
+                    spy={true} 
+                    smooth={true}>About</Link>
                 </li>
                 {/* <li className="nav-item">
                 <a className="nav-link" href="#">Services</a>
                 </li> */}
                 <li className="nav-item">
-                <a className="nav-link" href="#">experience</a>
+                <Link className="nav-link"
+                    to="experience"
+                    activeClass="active"
+                    spy={true} 
+                    smooth={true}>experience</Link>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="#">work</a>
+                <Link className="nav-link"
+                    to="work"
+                    activeClass="active"
+                    spy={true} 
+                    smooth={true}>work</Link>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="#">contact</a>
+                <Link className="nav-link"
+                    to="contact"
+                    activeClass="active"
+                    spy={true} 
+                    smooth={true}>contact</Link>
                 </li>
             </ul>
             </div>
