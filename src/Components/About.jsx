@@ -22,10 +22,10 @@ const About = () => {
     </Media>
     <Media.Body className="figCap">
         <p>
-            <h5>I am Daniel Yepez</h5>  A Colombian American Web Developer, who enjoys creating beautiful websites and applications that are responsive, dynamic and feature rich. With past experience in event production,
-             as an Audio Engineer with a passion for Web Development, I see both careers intertwined bridging creativity and technology. I am ready to put in the hard work and keep expanding my skills set and connections as 
-             opportunities arrive. In my downtime I enjoy spending time with my loved ones and celebrating life, I am a music lover of all kinds, follow me on Spotify, you can catch me and my Frenchie Sancho vibing, eating
-             fish tacos! Opened to gain a role as Developer or contract freelancer.
+            <h4>My name is Daniel Yepez</h4> I'm a Colombian-American Web Developer, who is passionate about creating websites and applications that are beautiful, responsive, dynamic, and feature rich. 
+            My past experience in event production as an Audio Engineer, along with my Web Development skills, bridges my creativity and love of technology. I am ready  and eager to work hard, as well 
+            as continuing to expand my skill set and connections as opportunities arrive. In my downtime, I enjoy spending quality time with my loved ones, exploring as well as curating music (follow me on Spotify) 
+            and vibing with my Frenchie, Sancho, eating tacos. Excited about the prospects to gain a role as a Developer or freelancer
         </p>
     </Media.Body>
     <Media className="social">

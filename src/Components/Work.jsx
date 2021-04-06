@@ -7,7 +7,7 @@ import album from '../Albumology.png'
 const Work = () => {
     return (
         <>
-        <h1 className="workHead" id="work">Work</h1>
+        <h1 className="workHead" id="work">My Work</h1>
         <Container className="workCont">
             
             <Card style={{ width: '32rem', boxShadow:'0 0.25em 0.5em 0 rgb(0,0,0,0.25)' }}>
@@ -15,9 +15,11 @@ const Work = () => {
                 <Card.Body>
                     <Card.Title>Backstage</Card.Title>
                     <Card.Text>
-                    Web application designed to assist musicians and venues communicate what they will need on their day of the show.
-                    Allows musicing to create a stage plot where they can drag and drop the instruments and send them to the venue, alternatively, 
-                    the venues can see the stage plot and show the equipment they can provide so the show goes on.
+                    Web application designed to assist musicians and venues communicate without the hassle of coordinating back and forth. 
+                    It allows musicians to plan out a stage plot, using a drag and drop feature, to place the instruments exactly where they 
+                    want them to be on stage, setting the stage for the show to go on.
+
+
                     </Card.Text>
                     
                     <br/>
@@ -29,10 +31,9 @@ const Work = () => {
                 <Card.Body>
                     <Card.Title>Albumology</Card.Title>
                     <Card.Text>
-                    Web application for music lovers that provides some history into songs albums and artists.
-                    You can search your favorite artists and once you do you can find their entire discography 
-                    and their process for recording some of your favorite songs. the main page features the 50 most loved albums, 
-                    where you can everything from Daft Punk to Alanis Morissette.
+                    Web application for music lovers that provides history on songs, albums and artists. Using the  search feature, the app facilitates 
+                    an artist's entire discography and backstories to your favorite songs. The main page features 50 of the most loved albums of all time, 
+                    where you'll find everything from Daft Punk to Alanis Morissette.
                     </Card.Text>
                     <br/>
                     <Button variant="primary" href="http://albumology.herokuapp.com/" target="_blank">Visit</Button>
