@@ -18,7 +18,7 @@ const Header = () => {
             }
           },
           shape:{
-            type:"triangle",
+            type:"circle",
             stroke:{
               width: 6,
               color:"#f9ab00"
@@ -31,13 +31,13 @@ const Header = () => {
                 <h1>FULL-STACK WEB DEVELOPER</h1>
                 <Typed
                     className="typed-text"
-                    strings={["Web Development", "Front-End","Back-End"]}
-                    typeSpeed={50}
-                    backSpeed={70}
+                    strings={["Web Design", "Front-End","Back-End", ]}
+                    typeSpeed={70}
+                    backSpeed={90}
                     loop
                 />
                 <Link href="#" className="btn-main-offer"
-                to="contact"
+                    to="contact"
                     activeClass="active"
                     spy={true} 
                     smooth={true}>contact me</Link>
