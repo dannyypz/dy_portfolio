@@ -88,7 +88,7 @@ nav ul li{
 
 .header-wraper{
   position: relative;
-  background: url(farzad-nazifi-p-xSl33Wxyc-unsplash.jpg) no-repeat;
+  background: url(steele-rutherford-P4tbpnpz61Y-unsplash.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -121,7 +121,7 @@ nav ul li{
 /************************TYPED TEXT********************************/
 .typed-text{
   font-size: 2rem;
-  color: var(--primary-bluegray);
+  color: white;
 
 }
 /************************TYPED TEXT********************************/
@@ -246,8 +246,12 @@ h3{
   font-family: 'Space Mono', monospace;
   padding-bottom: 60px;
 }
-Card{
-
+.workHead{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Space Mono', monospace;
+  padding-top: 30px;
 }
 
 /************************CONTACT********************************/

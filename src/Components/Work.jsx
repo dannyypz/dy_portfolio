@@ -7,7 +7,7 @@ import album from '../Albumology.png'
 const Work = () => {
     return (
         <>
-        <h1 className="contactHead" id="work">Work</h1>
+        <h1 className="workHead" id="work">Work</h1>
         <Container className="workCont">
             
             <Card style={{ width: '32rem', boxShadow:'0 0.25em 0.5em 0 rgb(0,0,0,0.25)' }}>
@@ -15,8 +15,9 @@ const Work = () => {
                 <Card.Body>
                     <Card.Title>Backstage</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    Web application designed to assist musicians and venues communicate what they will need on their day of the show.
+                    Allows musicing to create a stage plot where they can drag and drop the instruments and send them to the venue, alternatively, 
+                    the venues can see the stage plot and show the equipment they can provide so the show goes on.
                     </Card.Text>
                     
                     <br/>
@@ -28,8 +29,10 @@ const Work = () => {
                 <Card.Body>
                     <Card.Title>Albumology</Card.Title>
                     <Card.Text>
-                    Some quick example text to build on the card title and make up the bulk of
-                    the card's content.
+                    Web application for music lovers that provides some history into songs albums and artists.
+                    You can search your favorite artists and once you do you can find their entire discography 
+                    and their process for recording some of your favorite songs. the main page features the 50 most loved albums, 
+                    where you can everything from Daft Punk to Alanis Morissette.
                     </Card.Text>
                     <br/>
                     <Button variant="primary" href="http://albumology.herokuapp.com/" target="_blank">Visit</Button>
@@ -39,18 +42,25 @@ const Work = () => {
                     
                     <Container className="techUse">
                     <h4>Technologies</h4>
+                        GitHub
+                        <ProgressBar variant="info" animated now={97} />
+                        React.JS / Gatsby
+                        <ProgressBar variant="info" animated now={95} />
                         JavaScript
-                        <ProgressBar variant="info" animated now={70} />
+                        <ProgressBar variant="info" animated now={90} />
                         NodeJS
-                        <ProgressBar variant="info" animated now={70} />
-                        Express
+                        <ProgressBar variant="info" animated now={85} />
+                        Commerce JS / Shopify
+                        <ProgressBar variant="info" animated now={90} />
+                        MERN Stack
+                        <ProgressBar variant="info" animated now={75} />
+                        React bootstrap / MaterialUI / Tailwind CSS
+                        <ProgressBar variant="info" animated now={90} />
+                        Figma
                         <ProgressBar variant="info" animated now={60} />
-                        React.JS
-                        <ProgressBar variant="info" animated now={80} />
-                        React bootstrap
-                        <ProgressBar variant="info" animated now={80} />
-                        MaterialUI
-                        <ProgressBar variant="info" animated now={70} />
+                        Love My Dog
+                        <ProgressBar variant="info" animated now={100} />
+                        
                     </Container>
                     </>
     )
