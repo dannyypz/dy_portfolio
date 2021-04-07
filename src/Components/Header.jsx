@@ -11,7 +11,7 @@ const Header = () => {
       params={{
         particles:{
           number:{
-            value:30,
+            value:50,
             density: {
               enable: true, 
               value_area: 900
@@ -20,7 +20,7 @@ const Header = () => {
           shape:{
             type:"circle",
             stroke:{
-              width: 6,
+              width: 5,
               color:"#f9ab00"
             }
           }

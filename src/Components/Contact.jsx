@@ -22,7 +22,7 @@ const Contact = () => {
             <Row className="justify-content-md-center">
                 <Col xs lg="4">
                 <Form.Label htmlFor="name">Name</Form.Label>
-                <Form.Control style={{ boxShadow:'0 0.25em 0.5em 0 rgb(0,0,0,0.25)' }} type="name" placeholder="Name" id="name" type="name" name="name" />
+                <Form.Control style={{ boxShadow:'0 0.25em 0.5em 0 rgb(0,0,0,0.25)' }} type="name" placeholder="Name" id="name" name="name" />
                 <ValidationError 
                 prefix="Name" 
                 field="name"
@@ -31,7 +31,7 @@ const Contact = () => {
                 </Col>
                 <Col xs lg="4">
                 <Form.Label htmlFor="email">Email address</Form.Label>
-                <Form.Control style={{ boxShadow:'0 0.25em 0.5em 0 rgb(0,0,0,0.25)' }} type="email" placeholder="Email"id="email" type="email" name="email"  />
+                <Form.Control style={{ boxShadow:'0 0.25em 0.5em 0 rgb(0,0,0,0.25)' }} type="email" placeholder="Email"id="email" name="email"  />
                 <ValidationError 
                 prefix="Email" 
                 field="email"

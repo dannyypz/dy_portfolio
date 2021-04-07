@@ -1,9 +1,6 @@
 import React from 'react'
 import logo from '../De.png'
-// import * as Scroll from 'react-scroll';
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-// import Header from './Header'
-//React FontAwesome
+import { Link} from 'react-scroll'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
@@ -34,9 +31,6 @@ const Navbar = () => {
                     spy={true} 
                     smooth={true}>About</Link>
                 </li>
-                {/* <li className="nav-item">
-                <a className="nav-link" href="#">Services</a>
-                </li> */}
                 <li className="nav-item">
                 <Link className="nav-link"
                     to="experience"
