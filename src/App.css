@@ -269,7 +269,7 @@ h3{
   padding-bottom: 30px;
   align-items: center;
   justify-content: space-between !important;
-  width: 50px;
+  /* width: 50px; */
   font-family: 'Space Mono', monospace;
 
 }
@@ -278,4 +278,8 @@ h3{
   align-items: center;
   justify-content: center;
   font-family: 'Space Mono', monospace;
+}
+.subButton{
+  margin-top: 1.5rem;
+  margin-left: 4.5rem;
 }
