@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, Card, Button, ProgressBar, Typography} from 'react-bootstrap'
+import {Container, Card, Button, ProgressBar} from 'react-bootstrap'
 import backstage from '../Backstage_home.png'
 import album from '../Albumology.png'
 
