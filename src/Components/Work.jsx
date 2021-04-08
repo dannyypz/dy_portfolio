@@ -9,8 +9,7 @@ const Work = () => {
         <>
         <h1 className="workHead" id="work">My Work</h1>
         <Container className="workCont">
-            
-            <Card style={{ width: '32rem', height:'35rem', boxShadow:'0 0.25em 0.5em 0 rgb(0,0,0,0.25)' }}>
+            <Card className="workCard">
                 <Card.Img variant="top" src={backstage} />
                 <Card.Body>
                     <Card.Title>Backstage</Card.Title>
@@ -26,7 +25,7 @@ const Work = () => {
                     <Button variant="primary" href="http://welcome-backstage.herokuapp.com/" target="_blank">Visit</Button>
                 </Card.Body>
                 </Card>
-                <Card style={{ width: '32rem', height:'35rem', boxShadow:'0 0.25em 0.5em 0 rgb(0,0,0,0.25)' }}>
+                <Card className="workCard">
                 <Card.Img variant="top" src={album} />
                 <Card.Body>
                     <Card.Title>Albumology</Card.Title>
