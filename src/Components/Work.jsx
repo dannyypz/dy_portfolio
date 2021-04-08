@@ -41,7 +41,7 @@ const Work = () => {
         </Container>
                     
                     <Container className="techUse">
-                    <h4>Technologies</h4>
+                    <h3>Technologies</h3>
                         GitHub
                         <ProgressBar variant="info" animated now={97} />
                         React.JS / Gatsby
