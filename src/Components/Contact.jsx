@@ -22,7 +22,7 @@ const Contact = () => {
             <Row className="justify-content-md-center">
                 <Col xs lg="4">
                 <Form.Label htmlFor="name">Name</Form.Label>
-                <Form.Control style={{ boxShadow:'0 0.25em 0.5em 0 rgb(0,0,0,0.25)' }} type="name" placeholder="Name" id="name" name="name" />
+                <Form.Control style={{ boxShadow:'0 0.25em 0.5em 0 rgb(0,0,0,0.25)' }} type="name" placeholder="Name" id="name" name="name" required="true" />
                 <ValidationError 
                 prefix="Name" 
                 field="name"
@@ -31,7 +31,7 @@ const Contact = () => {
                 </Col>
                 <Col xs lg="4">
                 <Form.Label htmlFor="email">Email address</Form.Label>
-                <Form.Control style={{ boxShadow:'0 0.25em 0.5em 0 rgb(0,0,0,0.25)' }} type="email" placeholder="Email"id="email" name="email"  />
+                <Form.Control style={{ boxShadow:'0 0.25em 0.5em 0 rgb(0,0,0,0.25)' }} type="email" placeholder="Email"id="email" name="email" required="true" />
                 <ValidationError 
                 prefix="Email" 
                 field="email"
@@ -43,7 +43,7 @@ const Contact = () => {
             <Row className="justify-content-md-center">
                 <Col xs lg="8">
                 <Form.Label id="message" name="message">Comments</Form.Label>
-                <Form.Control  style={{ boxShadow:'0 0.25em 0.5em 0 rgb(0,0,0,0.25)' }} as="textarea" rows={7} placeholder="Tell me how we can work together..." id="message" type="message" name="message"  />
+                <Form.Control  style={{ boxShadow:'0 0.25em 0.5em 0 rgb(0,0,0,0.25)' }} as="textarea" rows={7} placeholder="Tell me how we can work together..." id="message" type="message" name="message" required="true"  />
                 <ValidationError 
                 prefix="Message" 
                 field="message"

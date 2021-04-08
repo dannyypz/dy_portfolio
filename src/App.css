@@ -249,6 +249,11 @@ h3{
   font-family: 'Space Mono', monospace;
   padding-bottom: 60px;
 }
+.workCard{
+  width: 32rem; 
+  height:38rem;
+  box-shadow:0 0.25em 0.5em 0 rgb(0,0,0,0.25)
+}
 .workHead{
   display: flex;
   align-items: center;
