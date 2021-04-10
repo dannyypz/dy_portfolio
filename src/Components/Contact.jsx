@@ -51,7 +51,7 @@ const Contact = () => {
                 />
                 </Col>
             </Row>
-            <Row className="justify-content-md-center">
+            <Row>
                 <Col xs lg="3">
                 <Button 
                     className="subButton"
