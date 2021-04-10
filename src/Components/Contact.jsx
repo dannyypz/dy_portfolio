@@ -51,10 +51,10 @@ const Contact = () => {
                 />
                 </Col>
             </Row>
-            <Row>
-                <Col xs lg="3">
+            <Row className="subButton">
+                <Col xs lg="2">
                 <Button 
-                    className="subButton"
+                    
                     type="submit" 
                     >Contact Me</Button>
                 </Col>
