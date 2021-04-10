@@ -12,7 +12,7 @@ const TimelineData = [
         id:2,
         title:"Full-Stack Engineer- Freelance",
         location:"Miami",
-        description:"•	Building relationships with local businesses to improve and deploy company webpages.Presently constructing Webpages for several clients using React.js JavaScript, Material UI, Shopify and GitHub.Executed UX/UI better practices by redesign pages using Figma",
+        description:"Building relationships with local businesses to improve and deploy company webpages.Presently constructing Webpages for several clients using React.js JavaScript, Material UI, Shopify and GitHub.Executed UX/UI better practices by redesign pages using Figma",
         buttonText:"view projects",
         date:"Jan 2021 - Present",
         icon:"work"
