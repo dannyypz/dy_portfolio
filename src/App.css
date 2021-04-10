@@ -286,12 +286,14 @@ h3{
 .subButton{
   margin-top: 1.5rem;
   /* margin-left: 8rem; */
-   display: flex;
-    align-items: center;
-    justify-content: center;
+   display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
-/* @media only screen and (max-width:820px){
+@media only screen and (max-width:820px){
   .subButton{
-    margin-left: 12rem;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important
   }
-} */
+}
